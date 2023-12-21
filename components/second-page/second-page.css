@@ -1,31 +1,22 @@
 .second-page {
   width: 100vw;
   height: 100vh;
-  position: relative;
 }
 .second-page .wrapper {
+  height: 100%;
+}
+.second-page .wrapper .second-background {
+  height: 100%;
+  background-image: url(../../images/back9.jpeg);
+  background-size: cover;
+}
+.second-page .wrapper .second-background .video-box {
+  height: 100%;
+  display: flex;
   justify-content: center;
   align-items: center;
 }
-.second-page .wrapper img {
-  width: 100vw;
-  height: 100vh;
-  -o-object-fit: cover;
-     object-fit: cover;
-  position: absolute;
-  z-index: -999;
-}
-.second-page .wrapper .video-box {
-  width: 100%;
-  position: relative;
-  height: 100%;
-  padding-bottom: 56.25%;
-  margin: 0px 0px;
-}
-.second-page .wrapper .video-box iframe {
-  width: 70%;
-  height: 70%;
-  position: absolute;
-  z-index: 1;
-  border: none;
+.second-page .wrapper .second-background .video-box iframe {
+  width: 55%;
+  height: 62%;
 }/*# sourceMappingURL=second-page.css.map */
