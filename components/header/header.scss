@@ -1,0 +1,129 @@
+header{
+    width: 100vw;
+    height: 110px;
+    position: fixed;
+    z-index: 10;
+    background-color: transparent;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.311);
+
+    .wrapper{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .navi__logo{
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding-left: 10px;
+            padding-top: 10px;
+  
+            img{
+                width: auto;
+                height: 90px;
+            }
+            .logo__text{
+                width: auto;
+                display: flex;
+                flex-direction: column;
+                :nth-child(1){
+                    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                    font-size: 10px;
+                    font-weight: 700;
+                    color: white;
+                    text-shadow: 0px 0px 10px black;
+                    text-transform: uppercase;
+                }
+                :nth-child(2){
+                    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                    font-size: 20px;
+                    font-weight: 700;
+                    color: white;
+                    text-shadow: 0px 0px 10px black;
+                    text-transform: uppercase;
+                }
+            }
+    
+        }
+
+        .navi__btns{
+            position : relative;
+            display : inline-block;
+            display: flex;
+
+            .btn{
+                border: none;
+                background-color: transparent;
+                color:white;
+            
+                font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                font-size: 22px;
+                font-weight: 650;
+                padding: 15px 20px;
+            
+                text-shadow: 0px 0px 10px black;
+            }
+            
+            .btn:hover{
+                color:black;
+                text-shadow: 0px 0px 15px rgb(219, 219, 219);
+                cursor: pointer;
+            
+                border:none;
+            }
+            
+            .about-content {
+                display : none;
+                position : absolute;
+                z-index : 1; 
+            
+                font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                font-size: 20px;
+                font-weight: 450;
+                background-color: #f9f9f9e5;
+                min-width : 100px;
+                border-radius: 10px;
+            }
+              
+            .about-content a{
+                display : block;
+                text-decoration : none;
+                color : rgb(37, 37, 37);
+                font-size: 12px;
+                padding : 12px 20px;
+            }
+            
+            .about-content a:hover{
+                background-color : #ececec;
+                border-radius: 10px;
+            }
+              
+            
+            .dropbox__about:hover .about{
+                display: block;
+            }
+            
+            .dropbox__info:hover .info{
+                display: block;
+            }
+            
+            .dropbox__apply:hover:hover .apply{
+                display: block;
+            }
+            
+            .dropbox__education:hover .education{
+                display: block;
+            }
+            .dropbox__activies:hover .activies{
+                display: block;
+            }
+            .dropbox__news:hover .news{
+                display: block;
+            }
+            .dropbox__ads:hover .ads{
+                display: block;
+            }
+        }
+        
+    }
+}

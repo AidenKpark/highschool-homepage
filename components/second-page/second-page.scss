@@ -1,0 +1,45 @@
+
+    .second-page{
+        width: 100vw;
+        height: 100vh;
+        position: relative;
+       
+        .wrapper{
+            justify-content: center;
+            align-items: center;
+        
+            img{
+                width: 100vw;
+                height: 100vh;
+                object-fit: cover;
+                position: absolute;
+                z-index: -999;
+            }
+            .video-box{
+                width: 100%;
+                position: relative; 
+                height:100%; 
+                padding-bottom: 56.25%; 
+                margin: 0px 0px;
+
+                iframe{
+                    width: 70%;
+                    height: 70%;
+                    position: absolute;
+                    z-index: 1;
+                    border: none;
+                }
+
+                // div{
+
+                //     iframe{
+                //         width: 60%;
+                //         height: 60%;
+                //         position: absolute;
+                //         margin: auto;
+                //     }
+                // }
+            }
+        }
+        
+    }
