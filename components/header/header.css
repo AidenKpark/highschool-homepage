@@ -59,8 +59,8 @@ header .wrapper .navi__btns .btn {
   text-shadow: 0px 0px 10px black;
 }
 header .wrapper .navi__btns .btn:hover {
-  color: black;
-  text-shadow: 0px 0px 15px rgb(219, 219, 219);
+  color: #0E3092;
+  text-shadow: 0px 0px 15px rgb(255, 255, 255);
   cursor: pointer;
   border: none;
 }
@@ -83,7 +83,7 @@ header .wrapper .navi__btns .about-content a {
   padding: 12px 20px;
 }
 header .wrapper .navi__btns .about-content a:hover {
-  background-color: #ececec;
+  background-color: #d1d1d1;
   border-radius: 10px;
 }
 header .wrapper .navi__btns .dropbox__about:hover .about {

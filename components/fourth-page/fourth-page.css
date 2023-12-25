@@ -1,0 +1,119 @@
+.fourth-page {
+  width: 100vw;
+  height: 100vh;
+  background-color: #edf0fd;
+  position: relative;
+}
+.fourth-page .wrapper {
+  width: 100%;
+  height: 80%;
+  position: absolute;
+  top: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+}
+.fourth-page .wrapper .div1 {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+}
+.fourth-page .wrapper .div1 :hover {
+  color: white;
+  animation-name: filling-up;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-duration: 1s;
+}
+.fourth-page .wrapper .div1 .btns {
+  width: 400px;
+  height: 50px;
+  border: 1px solid #F2F3F7;
+  border-radius: 25px;
+  background-color: #FFFFFF;
+  cursor: pointer;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  display: flex;
+  padding: 30px 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+.fourth-page .wrapper .parent {
+  width: 80%;
+  height: 75%;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-column-gap: 15px;
+  grid-row-gap: 20px;
+}
+.fourth-page .wrapper .parent :hover {
+  color: white;
+  animation-name: filling-up;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-duration: 1s;
+}
+.fourth-page .wrapper .parent .div2 {
+  grid-area: 1/1/3/3;
+}
+.fourth-page .wrapper .parent .div3 {
+  grid-area: 1/3/3/5;
+}
+.fourth-page .wrapper .parent .div4 {
+  grid-area: 1/5/3/7;
+}
+.fourth-page .wrapper .parent .div5 {
+  grid-area: 3/1/6/3;
+}
+.fourth-page .wrapper .parent .div6 {
+  grid-area: 3/3/6/5;
+}
+.fourth-page .wrapper .parent .div7 {
+  grid-area: 3/5/6/7;
+}
+.fourth-page .wrapper .parent .new-box {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 20px 30px;
+  border-radius: 15px;
+}
+.fourth-page .wrapper .parent .new-box button {
+  width: 100px;
+  height: 30px;
+  border: none;
+  background-color: #D8DEF8;
+  border-radius: 20px;
+  font-size: 15px;
+  color: #4D6ADE;
+}
+.fourth-page .wrapper .parent .new-box :nth-child(2) {
+  font-size: 30px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.fourth-page .wrapper .parent .new-box :nth-child(3) {
+  font-size: 20px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+@keyframes filling-up {
+  0% {
+    opacity: 0;
+    background-color: #0E3092;
+  }
+  50% {
+    opacity: 50;
+    background-color: #0E3092;
+  }
+  100% {
+    opacity: 100;
+    background-color: #0E3092;
+  }
+}/*# sourceMappingURL=fourth-page.css.map */

@@ -1,22 +1,21 @@
 .second-page {
   width: 100vw;
   height: 100vh;
+  position: relative;
 }
 .second-page .wrapper {
   height: 100%;
+  width: 100%;
+  position: relative;
 }
 .second-page .wrapper .second-background {
   height: 100%;
-  background-image: url(../../images/back9.jpeg);
+  background-image: url(../../images/back9-ai.png);
   background-size: cover;
 }
 .second-page .wrapper .second-background .video-box {
-  height: 100%;
+  position: absolute;
+  top: 250px;
   display: flex;
   justify-content: center;
-  align-items: center;
-}
-.second-page .wrapper .second-background .video-box iframe {
-  width: 55%;
-  height: 62%;
 }/*# sourceMappingURL=second-page.css.map */
