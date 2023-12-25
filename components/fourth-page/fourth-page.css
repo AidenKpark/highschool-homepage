@@ -3,6 +3,7 @@
   height: 100vh;
   background-color: #edf0fd;
   position: relative;
+  scroll-snap-align: start;
 }
 .fourth-page .wrapper {
   width: 100%;
