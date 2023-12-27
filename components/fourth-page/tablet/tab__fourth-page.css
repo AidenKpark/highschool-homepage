@@ -6,13 +6,13 @@
   scroll-snap-align: start;
 }
 .fourth-page .wrapper {
-  width: 100%;
+  width: 100vw;
   height: 80%;
   position: absolute;
-  top: 100px;
+  top: 80px;
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  gap: 100px;
   justify-content: center;
   align-items: center;
 }
@@ -46,7 +46,7 @@
 }
 .fourth-page .wrapper .parent {
   width: 80%;
-  height: 75%;
+  height: 70%;
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: repeat(4, 1fr);
@@ -99,10 +99,11 @@
   top: 20px;
 }
 .fourth-page .wrapper .parent .new-box :nth-child(2) {
-  font-size: 30px;
+  font-size: 2.5vw;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   position: absolute;
   top: 90px;
+  padding-right: 10px;
 }
 .fourth-page .wrapper .parent .new-box :nth-child(3) {
   font-size: 20px;
@@ -131,10 +132,11 @@
   top: 20px;
 }
 .fourth-page .wrapper .parent .new-box2 :nth-child(2) {
-  font-size: 30px;
+  font-size: 2.5vw;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   position: absolute;
   top: 90px;
+  padding-right: 10px;
 }
 .fourth-page .wrapper .parent .new-box2 :nth-child(3) {
   font-size: 20px;
@@ -156,4 +158,4 @@
     opacity: 100;
     background-color: #0E3092;
   }
-}/*# sourceMappingURL=fourth-page.css.map */
+}/*# sourceMappingURL=tab__fourth-page.css.map */

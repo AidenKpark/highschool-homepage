@@ -1,25 +1,28 @@
 .fourth-page{
     width: 100%;
     height: 100vh;
+
     background-color: #cfdce9;
     position: relative;
     scroll-snap-align: start;
 
 
     .wrapper{
-        width: 100%;
+        width: 100vw;
         height: 80%;
         position: absolute;
-        top: 100px;
+        top: 130px;
         display: flex;
         flex-direction: column;
-        gap: 30px;
+        gap: 50px;
         justify-content: center;
         align-items: center;
+
         .div1 { 
-        
+            width: 80%;
             display: flex;
-            gap: 40px;
+            flex-direction: column;
+            gap: 10px;
             justify-content: center;
             align-items: center;
             :hover{
@@ -30,10 +33,10 @@
                 animation-duration: 1s;
             }
             .btns {
-                width: 400px;
+                width: 100%;
                 height: 50px;
                 border: 1px solid #F2F3F7;
-                border-radius: 25px;
+                border-radius: 15px;
                 background-color: #FFFFFF;
                 cursor: pointer;
                 font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -49,12 +52,10 @@
         }
         .parent {
             width: 80%;
-            height: 75%;
-            display: grid;
-            grid-template-columns: repeat(6, 1fr);
-            grid-template-rows: repeat(4, 1fr);
-            grid-column-gap: 15px;
-            grid-row-gap: 20px;
+            height: 70%;
+            display: flex;
+            flex-direction: column;
+          
     
             :hover{
                 color:white;
@@ -64,106 +65,54 @@
                 animation-duration: 1s;
             }
             
-           
-            .div2 { 
-                grid-area: 1 / 1 / 3 / 3;
-        
-            }
-            .div3 { 
-                grid-area: 1 / 3 / 3 / 5; 
-    
-            }
-            .div4 { 
-                grid-area: 1 / 5 / 3 / 7; 
-    
-            }
             .div5 { 
-                grid-area: 3 / 1 / 6 / 3;
+                display: none;
     
             }
             .div6 { 
-                grid-area: 3 / 3 / 6 / 5; 
+                display: none;
     
             }
             .div7 { 
-                grid-area: 3 / 5 / 6 / 7; 
+                display: none;
     
-            }
-            .new-box{
-                background-color: white;
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                padding: 20px 30px;
-                border-radius: 15px;
-                position: relative;
-          
-               
-    
-                button{
-                    width: 100px;
-                    height: 30px;
-                    border: none;
-                    background-color: #D8DEF8;
-                    border-radius: 20px;
-                    font-size: 15px;
-                    color: #4D6ADE;
-                    position: absolute;
-                    top: 20px;
-                }
-    
-                :nth-child(2){
-
-                    font-size: 30px;
-                    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-                    position: absolute;
-                    top: 90px;
-                }
-                :nth-child(3){
-                    font-size: 20px;
-                    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-                    position: absolute;
-                    bottom: 20px;
-                }
-            }
-            .new-box2{
-                background-color: white;
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                padding: 20px 30px;
-                border-radius: 15px;
-                position: relative;
-          
-               
-    
-                button{
-                    width: 100px;
-                    height: 30px;
-                    border: none;
-                    background-color: #D8DEF8;
-                    border-radius: 20px;
-                    font-size: 15px;
-                    color: #4D6ADE;
-                    position: absolute;
-                    top: 20px;
-                }
-    
-                :nth-child(2){
-
-                    font-size: 30px;
-                    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-                    position: absolute;
-                    top: 90px;
-                }
-                :nth-child(3){
-                    font-size: 20px;
-                    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-                    position: absolute;
-                    bottom: 20px;
-                }
             }
             
+            .new-box{
+                width: 100%;
+                height: 200px;
+                background-color: white;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                border-radius: 15px;
+                position: relative;
+          
+               
+    
+                button{
+                    width: 100px;
+                    border: none;
+                    background-color: #D8DEF8;
+                    border-radius: 20px;
+                    font-size: 15px;
+                    color: #4D6ADE;
+               
+                }
+    
+                :nth-child(2){
+                    font-size: 20px;
+                    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                    padding-right: 10px;
+                    position: absolute;
+                    top: 75px;
+                }
+                :nth-child(3){
+                    font-size: 15px;
+                    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+                }
+            }
             }
     }
     

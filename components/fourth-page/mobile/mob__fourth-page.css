@@ -6,19 +6,21 @@
   scroll-snap-align: start;
 }
 .fourth-page .wrapper {
-  width: 100%;
+  width: 100vw;
   height: 80%;
   position: absolute;
-  top: 100px;
+  top: 130px;
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  gap: 50px;
   justify-content: center;
   align-items: center;
 }
 .fourth-page .wrapper .div1 {
+  width: 80%;
   display: flex;
-  gap: 40px;
+  flex-direction: column;
+  gap: 10px;
   justify-content: center;
   align-items: center;
 }
@@ -30,10 +32,10 @@
   animation-duration: 1s;
 }
 .fourth-page .wrapper .div1 .btns {
-  width: 400px;
+  width: 100%;
   height: 50px;
   border: 1px solid #F2F3F7;
-  border-radius: 25px;
+  border-radius: 15px;
   background-color: #FFFFFF;
   cursor: pointer;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
@@ -46,12 +48,9 @@
 }
 .fourth-page .wrapper .parent {
   width: 80%;
-  height: 75%;
-  display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  grid-template-rows: repeat(4, 1fr);
-  grid-column-gap: 15px;
-  grid-row-gap: 20px;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
 }
 .fourth-page .wrapper .parent :hover {
   color: white;
@@ -60,87 +59,43 @@
   animation-iteration-count: infinite;
   animation-duration: 1s;
 }
-.fourth-page .wrapper .parent .div2 {
-  grid-area: 1/1/3/3;
-}
-.fourth-page .wrapper .parent .div3 {
-  grid-area: 1/3/3/5;
-}
-.fourth-page .wrapper .parent .div4 {
-  grid-area: 1/5/3/7;
-}
 .fourth-page .wrapper .parent .div5 {
-  grid-area: 3/1/6/3;
+  display: none;
 }
 .fourth-page .wrapper .parent .div6 {
-  grid-area: 3/3/6/5;
+  display: none;
 }
 .fourth-page .wrapper .parent .div7 {
-  grid-area: 3/5/6/7;
+  display: none;
 }
 .fourth-page .wrapper .parent .new-box {
+  width: 100%;
+  height: 200px;
   background-color: white;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 20px 30px;
   border-radius: 15px;
   position: relative;
 }
 .fourth-page .wrapper .parent .new-box button {
   width: 100px;
-  height: 30px;
   border: none;
   background-color: #D8DEF8;
   border-radius: 20px;
   font-size: 15px;
   color: #4D6ADE;
-  position: absolute;
-  top: 20px;
 }
 .fourth-page .wrapper .parent .new-box :nth-child(2) {
-  font-size: 30px;
+  font-size: 20px;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  padding-right: 10px;
   position: absolute;
-  top: 90px;
+  top: 75px;
 }
 .fourth-page .wrapper .parent .new-box :nth-child(3) {
-  font-size: 20px;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  position: absolute;
-  bottom: 20px;
-}
-.fourth-page .wrapper .parent .new-box2 {
-  background-color: white;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 20px 30px;
-  border-radius: 15px;
-  position: relative;
-}
-.fourth-page .wrapper .parent .new-box2 button {
-  width: 100px;
-  height: 30px;
-  border: none;
-  background-color: #D8DEF8;
-  border-radius: 20px;
   font-size: 15px;
-  color: #4D6ADE;
-  position: absolute;
-  top: 20px;
-}
-.fourth-page .wrapper .parent .new-box2 :nth-child(2) {
-  font-size: 30px;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  position: absolute;
-  top: 90px;
-}
-.fourth-page .wrapper .parent .new-box2 :nth-child(3) {
-  font-size: 20px;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  position: absolute;
-  bottom: 20px;
 }
 
 @keyframes filling-up {
@@ -156,4 +111,4 @@
     opacity: 100;
     background-color: #0E3092;
   }
-}/*# sourceMappingURL=fourth-page.css.map */
+}/*# sourceMappingURL=mob__fourth-page.css.map */
