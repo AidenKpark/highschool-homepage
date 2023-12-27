@@ -7,7 +7,7 @@
 }
 .fourth-page .wrapper {
   width: 100vw;
-  height: 60%;
+  height: 80%;
   position: absolute;
   top: 130px;
   display: flex;
@@ -43,7 +43,7 @@
   font-size: 15px;
   font-weight: 500;
   display: flex;
-  padding: 15px 10px;
+  padding: 20px 30px;
   justify-content: space-between;
   align-items: center;
 }
