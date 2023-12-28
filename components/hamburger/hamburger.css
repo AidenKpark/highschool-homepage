@@ -1,0 +1,104 @@
+.hamburger:hover .burger-wrap {
+  display: block;
+}
+.hamburger i {
+  position: absolute;
+  top: 20;
+  right: 40;
+  text-shadow: 0px 0px 5px black;
+  display: flex;
+  justify-content: end;
+  font-size: 30px;
+  color: white;
+  display: block;
+}
+.hamburger .burger-wrap {
+  height: 100vh;
+  width: 30vw;
+  position: absolute;
+  top: 0 !important;
+  right: 0 !important;
+  background-color: rgba(220, 220, 220, 0.751);
+  display: none;
+  flex-direction: column;
+  justify-content: start;
+  align-items: end;
+  gap: 30px;
+  padding-top: 100px;
+}
+.hamburger .burger-wrap .dropbox {
+  width: 100%;
+  display: block;
+}
+.hamburger .burger-wrap .dropbox .btn {
+  width: 100%;
+  border: none;
+  background-color: transparent;
+  color: white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 20px;
+  font-weight: 650;
+  padding: 15px 20px;
+  white-space: nowrap;
+  text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.728);
+}
+.hamburger .burger-wrap .dropbox .btn:hover {
+  color: #0E3092;
+  text-shadow: 0px 0px 15px rgb(255, 255, 255);
+  cursor: pointer;
+  border: none;
+}
+.hamburger .burger-wrap .dropbox .info {
+  display: flex;
+  flex-direction: column;
+}
+.hamburger .burger-wrap .dropbox .about-content {
+  display: none;
+  min-width: 200px;
+  height: -moz-fit-content;
+  height: fit-content;
+  flex-direction: column;
+  position: relative;
+  z-index: 1;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 25px;
+  font-weight: 450;
+  background-color: rgba(137, 155, 197, 0.351);
+  border-radius: 10px;
+}
+.hamburger .burger-wrap .dropbox .about-content a {
+  width: 100%;
+  display: block;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  padding: 10px 15px;
+  border-radius: 10px;
+}
+.hamburger .burger-wrap .dropbox .about-content a:hover {
+  color: #0E3092;
+  text-shadow: 0px 0px 5px white;
+  background-color: rgba(209, 209, 209, 0.6745098039);
+  border-radius: 10px;
+}
+.hamburger .burger-wrap .dropbox__info:hover .info {
+  display: block;
+}
+.hamburger .burger-wrap .dropbox__about:hover .about {
+  display: block;
+}
+.hamburger .burger-wrap .dropbox__apply:hover .apply {
+  display: block;
+}
+.hamburger .burger-wrap .dropbox__education:hover .education {
+  display: block;
+}
+.hamburger .burger-wrap .dropbox__activies:hover .activies {
+  display: block;
+}
+.hamburger .burger-wrap .dropbox__news:hover .news {
+  display: block;
+}
+.hamburger .burger-wrap .dropbox__ads:hover .ads {
+  display: block;
+}/*# sourceMappingURL=hamburger.css.map */
