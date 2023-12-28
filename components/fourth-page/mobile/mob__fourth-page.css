@@ -6,13 +6,13 @@
   scroll-snap-align: start;
 }
 .fourth-page .wrapper {
-  width: 100vw;
+  width: 100%;
   height: 80%;
   position: absolute;
-  top: 130px;
+  top: 110px;
   display: flex;
   flex-direction: column;
-  gap: 50px;
+  gap: 30px;
   justify-content: center;
   align-items: center;
 }
@@ -28,37 +28,29 @@
   color: white;
   animation-name: filling-up;
   animation-timing-function: linear;
-  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
   animation-duration: 1s;
 }
 .fourth-page .wrapper .div1 .btns {
   width: 100%;
-  height: 30px;
-  color: black;
+  height: 50px;
   border: 1px solid #F2F3F7;
-  border-radius: 20px;
+  border-radius: 25px;
   background-color: #FFFFFF;
   cursor: pointer;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  font-size: 15px;
+  font-size: 20px;
   font-weight: 500;
   display: flex;
-  padding: 20px 30px;
+  padding: 30px 20px;
   justify-content: space-between;
   align-items: center;
 }
 .fourth-page .wrapper .parent {
   width: 80%;
-  height: 70%;
+  height: 75%;
   display: flex;
   flex-direction: column;
-}
-.fourth-page .wrapper .parent :hover {
-  color: white;
-  animation-name: filling-up;
-  animation-timing-function: linear;
-  animation-iteration-count: infinite;
-  animation-duration: 1s;
 }
 .fourth-page .wrapper .parent .div5 {
   display: none;
@@ -69,34 +61,143 @@
 .fourth-page .wrapper .parent .div7 {
   display: none;
 }
-.fourth-page .wrapper .parent .new-box {
+.fourth-page .wrapper .parent .div2 {
   width: 100%;
-  height: 200px;
+  height: 30%;
   background-color: white;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding: 20px 30px;
   border-radius: 15px;
   position: relative;
 }
-.fourth-page .wrapper .parent .new-box button {
+.fourth-page .wrapper .parent .div2:hover {
+  color: white;
+  animation-name: filling-up;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+  animation-duration: 1s;
+}
+.fourth-page .wrapper .parent .div2 button {
   width: 100px;
+  height: 30px;
   border: none;
   background-color: #D8DEF8;
   border-radius: 20px;
   font-size: 15px;
   color: #4D6ADE;
+  position: absolute;
+  top: 20px;
 }
-.fourth-page .wrapper .parent .new-box :nth-child(2) {
+.fourth-page .wrapper .parent .div2 :nth-child(2) {
+  width: 80%;
+  height: 50px;
+  font-size: 3vw;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  position: absolute;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  top: 60px;
+}
+.fourth-page .wrapper .parent .div2 :nth-child(3) {
   font-size: 20px;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  padding-right: 10px;
   position: absolute;
-  top: 50px;
+  bottom: 20px;
 }
-.fourth-page .wrapper .parent .new-box :nth-child(3) {
+.fourth-page .wrapper .parent .div3 {
+  width: 100%;
+  height: 30%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px 30px;
+  border-radius: 15px;
+  position: relative;
+}
+.fourth-page .wrapper .parent .div3:hover {
+  color: white;
+  animation-name: filling-up;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+  animation-duration: 1s;
+}
+.fourth-page .wrapper .parent .div3 button {
+  width: 100px;
+  height: 30px;
+  border: none;
+  background-color: #D8DEF8;
+  border-radius: 20px;
   font-size: 15px;
+  color: #4D6ADE;
+  position: absolute;
+  top: 20px;
+}
+.fourth-page .wrapper .parent .div3 :nth-child(2) {
+  width: 80%;
+  height: 50px;
+  font-size: 3vw;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  position: absolute;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  top: 60px;
+}
+.fourth-page .wrapper .parent .div3 :nth-child(3) {
+  font-size: 20px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  position: absolute;
+  bottom: 20px;
+}
+.fourth-page .wrapper .parent .div4 {
+  width: 100%;
+  height: 30%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px 30px;
+  border-radius: 15px;
+  position: relative;
+}
+.fourth-page .wrapper .parent .div4:hover {
+  color: white;
+  animation-name: filling-up;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+  animation-duration: 1s;
+}
+.fourth-page .wrapper .parent .div4 button {
+  width: 100px;
+  height: 30px;
+  border: none;
+  background-color: #D8DEF8;
+  border-radius: 20px;
+  font-size: 15px;
+  color: #4D6ADE;
+  position: absolute;
+  top: 20px;
+}
+.fourth-page .wrapper .parent .div4 :nth-child(2) {
+  width: 80%;
+  height: 50px;
+  font-size: 3vw;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  position: absolute;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  top: 60px;
+}
+.fourth-page .wrapper .parent .div4 :nth-child(3) {
+  font-size: 20px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  position: absolute;
+  bottom: 20px;
 }
 
 @keyframes filling-up {

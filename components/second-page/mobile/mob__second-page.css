@@ -16,7 +16,7 @@
 }
 .second-page .wrapper .second-background .video-box {
   position: absolute;
-  top: 350px;
+  top: 250px;
   display: flex;
   justify-content: center;
 }
@@ -32,7 +32,7 @@
   overflow-x: hidden;
   overflow-y: hidden;
   position: absolute;
-  top: 550px;
+  top: 600px;
 }
 .second-page .wrapper .names ul {
   display: flex;

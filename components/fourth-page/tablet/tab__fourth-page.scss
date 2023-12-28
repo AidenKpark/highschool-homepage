@@ -1,24 +1,23 @@
 .fourth-page{
     width: 100%;
     height: 100vh;
-
     background-color: #cfdce9;
     position: relative;
     scroll-snap-align: start;
 
 
     .wrapper{
-        width: 100vw;
+        width: 100%;
         height: 80%;
         position: absolute;
-        top: 80px;
+        top: 100px;
         display: flex;
         flex-direction: column;
-        gap: 100px;
+        gap: 30px;
         justify-content: center;
         align-items: center;
         .div1 { 
-        
+            width: 80%;
             display: flex;
             gap: 40px;
             justify-content: center;
@@ -27,7 +26,7 @@
                 color: white;
                 animation-name: filling-up;
                 animation-timing-function: linear;
-                animation-iteration-count: infinite;
+                animation-fill-mode: forwards;
                 animation-duration: 1s;
             }
             .btns {
@@ -50,47 +49,248 @@
         }
         .parent {
             width: 80%;
-            height: 70%;
+            height: 75%;
             display: grid;
             grid-template-columns: repeat(6, 1fr);
             grid-template-rows: repeat(4, 1fr);
             grid-column-gap: 15px;
             grid-row-gap: 20px;
-    
-            :hover{
-                color:white;
-                animation-name: filling-up;
-                animation-timing-function: linear;
-                animation-iteration-count: infinite;
-                animation-duration: 1s;
-            }
             
-           
+            
             .div2 { 
+                width: 100%;
+                height: 100%;
                 grid-area: 1 / 1 / 3 / 3;
+                background-color: white;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                padding: 20px 30px;
+                border-radius: 15px;
+                position: relative;
+                &:hover{
+                    color:white;
+                    animation-name: filling-up;
+                    animation-timing-function: linear;
+                    animation-fill-mode: forwards;
+                    animation-duration: 1s;
+                }
+                button{
+                    width: 100px;
+                    height: 30px;
+                    border: none;
+                    background-color: #D8DEF8;
+                    border-radius: 20px;
+                    font-size: 15px;
+                    color: #4D6ADE;
+                    position: absolute;
+                    top: 20px;
+                }
+                :nth-child(2){
+                    width: 80%;
+                    height: 50px;
+                    font-size: 3vw;
+                    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                    position: absolute;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    white-space: nowrap;
+                    top: 90px;
+                }
+                :nth-child(3){
+                    font-size: 20px;
+                    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                    position: absolute;
+                    bottom: 20px;
+                }
         
             }
             .div3 { 
                 grid-area: 1 / 3 / 3 / 5; 
+                background-color: white;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                padding: 20px 30px;
+                border-radius: 15px;
+                position: relative;
+                &:hover{
+                    color:white;
+                    animation-name: filling-up;
+                    animation-timing-function: linear;
+                    animation-fill-mode: forwards;
+                    animation-duration: 1s;
+                }
+                button{
+                    width: 100px;
+                    height: 30px;
+                    border: none;
+                    background-color: #D8DEF8;
+                    border-radius: 20px;
+                    font-size: 15px;
+                    color: #4D6ADE;
+                    position: absolute;
+                    top: 20px;
+                }
+                :nth-child(2){
+                    width: 80%;
+                    height: 50px;
+                    font-size: 3vw;
+                    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                    position: absolute;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    white-space: nowrap;
+                    top: 90px;
+                }
+                :nth-child(3){
+                    font-size: 20px;
+                    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                    position: absolute;
+                    bottom: 20px;
+                }
     
             }
             .div4 { 
                 grid-area: 1 / 5 / 3 / 7; 
+                background-color: white;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                padding: 20px 30px;
+                border-radius: 15px;
+                position: relative;
+                &:hover{
+                    color:white;
+                    animation-name: filling-up;
+                    animation-timing-function: linear;
+                    animation-fill-mode: forwards;
+                    animation-duration: 1s;
+                }
+                button{
+                    width: 100px;
+                    height: 30px;
+                    border: none;
+                    background-color: #D8DEF8;
+                    border-radius: 20px;
+                    font-size: 15px;
+                    color: #4D6ADE;
+                    position: absolute;
+                    top: 20px;
+                }
+                :nth-child(2){
+                    width: 80%;
+                    height: 50px;
+                    font-size: 3vw;
+                    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                    position: absolute;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    white-space: nowrap;
+                    top: 90px;
+                }
+                :nth-child(3){
+                    font-size: 20px;
+                    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                    position: absolute;
+                    bottom: 20px;
+                }
     
             }
             .div5 { 
                 grid-area: 3 / 1 / 6 / 3;
+                background-color: white;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                padding: 20px 30px;
+                border-radius: 15px;
+                position: relative;
+                &:hover{
+                    color:white;
+                    animation-name: filling-up;
+                    animation-timing-function: linear;
+                    animation-fill-mode: forwards;
+                    animation-duration: 1s;
+                }
+                button{
+                    width: 100px;
+                    height: 30px;
+                    border: none;
+                    background-color: #D8DEF8;
+                    border-radius: 20px;
+                    font-size: 15px;
+                    color: #4D6ADE;
+                    position: absolute;
+                    top: 20px;
+                }
+                :nth-child(2){
+                    width: 80%;
+                    height: 50px;
+                    font-size: 3vw;
+                    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                    position: absolute;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    white-space: nowrap;
+                    top: 90px;
+                }
+                :nth-child(3){
+                    font-size: 20px;
+                    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                    position: absolute;
+                    bottom: 20px;
+                }
     
             }
             .div6 { 
                 grid-area: 3 / 3 / 6 / 5; 
+                background-color: white;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                padding: 20px 30px;
+                border-radius: 15px;
+                position: relative;
+                &:hover{
+                    color:white;
+                    animation-name: filling-up;
+                    animation-timing-function: linear;
+                    animation-fill-mode: forwards;
+                    animation-duration: 1s;
+                }
+                button{
+                    width: 100px;
+                    height: 30px;
+                    border: none;
+                    background-color: #D8DEF8;
+                    border-radius: 20px;
+                    font-size: 15px;
+                    color: #4D6ADE;
+                    position: absolute;
+                    top: 20px;
+                }
+                :nth-child(2){
+                    width: 80%;
+                    height: 50px;
+                    font-size: 3vw;
+                    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                    position: absolute;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    white-space: nowrap;
+                    top: 90px;
+                }
+                :nth-child(3){
+                    font-size: 20px;
+                    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                    position: absolute;
+                    bottom: 20px;
+                }
     
             }
             .div7 { 
                 grid-area: 3 / 5 / 6 / 7; 
-    
-            }
-            .new-box{
                 background-color: white;
                 display: flex;
                 flex-direction: column;
@@ -98,9 +298,13 @@
                 padding: 20px 30px;
                 border-radius: 15px;
                 position: relative;
-          
-               
-    
+                &:hover{
+                    color:white;
+                    animation-name: filling-up;
+                    animation-timing-function: linear;
+                    animation-fill-mode: forwards;
+                    animation-duration: 1s;
+                }
                 button{
                     width: 100px;
                     height: 30px;
@@ -112,13 +316,16 @@
                     position: absolute;
                     top: 20px;
                 }
-    
                 :nth-child(2){
-                    font-size: 2.5vw;
+                    width: 80%;
+                    height: 50px;
+                    font-size: 3vw;
                     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
                     position: absolute;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    white-space: nowrap;
                     top: 90px;
-                    padding-right: 10px;
                 }
                 :nth-child(3){
                     font-size: 20px;
@@ -126,45 +333,10 @@
                     position: absolute;
                     bottom: 20px;
                 }
-            }
-            .new-box2{
-                background-color: white;
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                padding: 20px 30px;
-                border-radius: 15px;
-                position: relative;
-          
-               
     
-                button{
-                    width: 100px;
-                    height: 30px;
-                    border: none;
-                    background-color: #D8DEF8;
-                    border-radius: 20px;
-                    font-size: 15px;
-                    color: #4D6ADE;
-                    position: absolute;
-                    top: 20px;
-                }
-    
-                :nth-child(2){
-                    font-size: 2.5vw;
-                    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-                    position: absolute;
-                    top: 90px;
-                    padding-right: 10px;
-                }
-                :nth-child(3){
-                    font-size: 20px;
-                    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-                    position: absolute;
-                    bottom: 20px;
-                }
             }
-            }
+            
+        }
     }
     
     }
